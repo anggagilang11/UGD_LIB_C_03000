@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="3dp"
+    android:padding="10dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/baseCardView"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:cardBackgroundColor="#e4e4e4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/thumbNail"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:elevation="2dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_launcher_foreground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:elevation="2dp"
+        android:maxWidth="180dp"
+        android:text="gedhang"
+        app:layout_constraintStart_toEndOf="@id/thumbNail"
+        app:layout_constraintTop_toTopOf="@id/thumbNail" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:elevation="2dp"
+        android:text="Rp. 100,000.00"
+        app:layout_constraintStart_toEndOf="@id/thumbNail"
+        app:layout_constraintTop_toBottomOf="@id/title" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonKurang"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:elevation="2dp"
+        android:text="-"
+        app:layout_constraintStart_toEndOf="@id/thumbNail"
+        app:layout_constraintTop_toBottomOf="@id/price" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/jumlahBeli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:inputType="none"
+        android:enabled="false"
+        android:clickable="false"
+        android:elevation="2dp"
+        android:text="100"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/buttonKurang"
+        app:layout_constraintTop_toBottomOf="@id/price" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonTambah"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:text="+"
+        app:layout_constraintStart_toEndOf="@id/jumlahBeli"
+        app:layout_constraintTop_toBottomOf="@id/price" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,175 @@
+{
+	"message": "Data Game Berhasil Diambil",
+	"data": [
+		{
+			"id": 570,
+			"title": "Dota 2",
+			"urlImage": "https://cdn.akamai.steamstatic.com/steam/apps/570/header.jpg",
+			"currency": "Rp. ",
+			"price": 0,
+			"description": "Dota is the deepest multi-player action RTS game ever made and there's always a new strategy or tactic to discover. It's completely free to play and always will be – start defending your ancient now.",
+			"peakYearlyOnlineUser": [
+				{
+					"year": 2016,
+					"value": 20061
+				},
+				{
+					"year": 2017,
+					"value": 97211
+				},
+				{
+					"year": 2018,
+					"value": 21440
+				},
+				{
+					"year": 2019,
+					"value": 72109
+				},
+				{
+					"year": 2020,
+					"value": 68610
+				},
+				{
+					"year": 2021,
+					"value": 47996
+				}
+			]
+		},
+		{
+			"id": 730,
+			"title": "Counter Strike Global Defensive",
+			"urlImage": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg",
+			"currency": "Rp. ",
+			"price": 0,
+			"description": "Counter-Strike: Global Offensive (CS: GO) expands upon the team-based action gameplay that it pioneered when it was launched 19 years ago.",
+			"peakYearlyOnlineUser": [
+				{
+					"year": 2016,
+					"value": 80239
+				},
+				{
+					"year": 2017,
+					"value": 82545
+				},
+				{
+					"year": 2018,
+					"value": 67278
+				},
+				{
+					"year": 2019,
+					"value": 54172
+				},
+				{
+					"year": 2020,
+					"value": 37947
+				},
+				{
+					"year": 2021,
+					"value": 40145
+				}
+			]
+		},
+		{
+			"id": 72850,
+			"title": "The Elder Scrolls V: Skyrim",
+			"urlImage": "https://cdn.akamai.steamstatic.com/steam/apps/72850/header.jpg",
+			"currency": "Rp. ",
+			"price": 100000,
+			"description": "The next chapter in the highly anticipated Elder Scrolls saga arrives from the makers of the 2006 and 2008 Games of the Year, Bethesda Game Studios. Skyrim reimagines and revolutionizes the open-world fantasy epic, bringing to life a complete virtual world open for you to explore any way you choose.",
+			"peakYearlyOnlineUser": [
+				{
+					"year": 2016,
+					"value": 74873
+				},
+				{
+					"year": 2017,
+					"value": 29961
+				},
+				{
+					"year": 2018,
+					"value": 98552
+				},
+				{
+					"year": 2019,
+					"value": 55527
+				},
+				{
+					"year": 2020,
+					"value": 30567
+				},
+				{
+					"year": 2021,
+					"value": 61295
+				}
+			]
+		},
+		{
+			"id": 582010,
+			"title": "Monster Hunter: World",
+			"urlImage": "https://cdn.akamai.steamstatic.com/steam/apps/582010/header.jpg",
+			"currency": "Rp. ",
+			"price": 300000,
+			"description": "Welcome to a new world! Take on the role of a hunter and slay ferocious monsters in a living, breathing ecosystem where you can use the landscape and its diverse inhabitants to get the upper hand. Hunt alone or in co-op with up to three other players, and use materials collected from fallen foes to craft new gear and take on even bigger, badder beasts!",
+			"peakYearlyOnlineUser": [
+				{
+					"year": 2016,
+					"value": 76346
+				},
+				{
+					"year": 2017,
+					"value": 24126
+				},
+				{
+					"year": 2018,
+					"value": 87926
+				},
+				{
+					"year": 2019,
+					"value": 56840
+				},
+				{
+					"year": 2020,
+					"value": 99025
+				},
+				{
+					"year": 2021,
+					"value": 80877
+				}
+			]
+		},
+		{
+			"id": 359550,
+			"title": "Tom Clancy's Rainbow Six® Siege",
+			"urlImage": "https://cdn.akamai.steamstatic.com/steam/apps/359550/header.jpg",
+			"currency": "Rp. ",
+			"price": 200000,
+			"description": "Master the art of destruction and gadgetry in Tom Clancy’s Rainbow Six Siege. Face intense close quarters combat, high lethality, tactical decision making, team play and explosive action within every moment. Experience a new era of fierce firefights and expert strategy born from the rich legacy of past Tom Clancy's Rainbow Six games.",
+			"peakYearlyOnlineUser": [
+				{
+					"year": 2016,
+					"value": 27467
+				},
+				{
+					"year": 2017,
+					"value": 44059
+				},
+				{
+					"year": 2018,
+					"value": 85842
+				},
+				{
+					"year": 2019,
+					"value": 12781
+				},
+				{
+					"year": 2020,
+					"value": 13952
+				},
+				{
+					"year": 2021,
+					"value": 58867
+				}
+			]
+		}
+	]
+}
